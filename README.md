@@ -6,7 +6,7 @@
 * [JavaScript Algorithms and Data Structures - Codevolution -YouTube
 ](https://www.youtube.com/watch?v=coqQwbDezUA&list=PLC3y8-rFHvwjPxNAKvZpdnsr41E0fCMMP&index=1)
 * [Python3 Compile Online - Rextester](http://rextester.com/l/python3_online_compiler)
-* [Problem Solving with Algorithms and Data Structures using Python - By Brad Miller and David Ranum, Luther College ](http://interactivepython.org/runestone/static/pythonds/index.html)
+* Problem Solving with Algorithms and Data Structures using Python - By Brad Miller and David Ranum, Luther College
 * [Python Docs](https://docs.python.org/3/tutorial/datastructures.html)
 * [Python - Tutorialspoint](https://www.tutorialspoint.com/python/python_data_structure.htm)
 * [Data Structure and Algorithms Tutorial - Tutorialspoint](https://www.tutorialspoint.com/data_structures_algorithms/index.htm)  
