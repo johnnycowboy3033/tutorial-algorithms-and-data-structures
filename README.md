@@ -19,9 +19,9 @@
 ## What is an algorithm?
 An algorithm is a set of well-defined instructions to solve a particular problem     
 
-<img src="recipe_analogy.png" alt="Recipe Analogy">
+<img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/recipe_analogy.png" alt="Recipe Analogy">
 
-<img src="programming_recipe_analogy.png" alt="Programming Recipe Analogy">
+<img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/programming_recipe_analogy.png" alt="Programming Recipe Analogy">
 
 ## Why Algorithms?
 * As a developer, you're going to come across problems that you need to solve         
