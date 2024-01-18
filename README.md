@@ -54,7 +54,9 @@ Asymptotic notations
 # Big O Notation
 The worst case complexity of an algorithm is represented using the big O notation     
 
-Big-O notation describes the complexity of the algorithm using algebraic terms        
+Big-O notation describes the complexity of the algorithm using algebraic terms  
+
+Count the number of times a statement executes based on the input size
 
 It has two important characteristics
 * It is expressed in terms of the input
@@ -147,13 +149,46 @@ O(n&sup3;)
     
 * If an algorithm is dividing the elements being considered by 2 each iteration, then it likely has a runtime complexity of O(log N).  
 
+## Big O Notation of Objects and Arrays
+
+### Objects
+* An object is a collection of key and value pairs
+
+Insert item - O(1)
+Remove item - O(1)
+Access items - O(1)
+Search items - O(n) is Linear because might have search all elements
+Object.keys() - O(n) 
+Object.values() - O(n) 
+Object.entries() - O(n) 
+
+### Arrays
+* An array is an ordered collection of values
+  
+Insert/remove at end - O(1)
+Insert/remove at beginning - O(n) 
+Access - O(1)
+Search - O(n)
+Push/pop - O(1)
+Shift/unshift/concat/slice/splice - O(n)
+forEach/map/filter/reduce - O(n)
+
+ ## Big-O Guide Cheatsheet
+ __________________________________________________
+ Calculation not dependent in input size - O(1)
+
+ 1 loop - O(n)
+ 2 nested loops - O(n^2)
+ Input size reduced by half - O(log n)
+
 # Math Algorithms
 * Fibonacci Sequence
 * Factorial Sequence
 * Prime Numer
 * Power of Two
 * Recursion
-    
+* Fibonacci sequence with recursion
+* Factorial of a number with recursion    
 
 
 # References      
