@@ -190,6 +190,41 @@ forEach/map/filter/reduce - O(n)
 * Fibonacci sequence with recursion
 * Factorial of a number with recursion    
 
+## Recursion
+* Recursion of a problem solving technique where the solution depends on solutions to smaller
+instances of the same problem    
+  
+*  Recursion is when a function calls itself 
+   
+*  A great technique to simplify your solution 
+
+*  If you find yourself breaking down your problem into smaller versions of the same problem,
+recursion is very useful  
+
+### A few points about recursion
+* Every recursive solution needs to have base case - a condition to terminate the recursion
+  
+*  Recursion might simplify solving a problem but it does not always translate to a faster 
+solution. A recursive solution solution may be for worse compared to an iterative solution
+
+* Recursion is a topic that is not the most straightforward to understand. Do not give up 
+if you struggle with the concept 
+
+### Tips for recursive solutions
+* Figure out how to break down the problem inti smaller versions of the same problem
+identify the base case for recursion
+
+### Recursive Fibonacci Sequence
+* The Fibonacci Sequence is a sequence in which each number is the sum of the two preceding ones.
+
+* If F represents a function to calculate the Fibonacci number, then
+```
+Fn = Fn-1 + Fn-2
+
+F0 = 0 and F1 = 1
+
+F2 = F1 + F0 
+```
 
 # References      
 * [JavaScript Algorithms and Data Structures - Codevolution - YouTube

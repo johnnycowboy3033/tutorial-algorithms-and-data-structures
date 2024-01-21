@@ -57,6 +57,7 @@ isPowerOf2(32);
 
 console.log ( '*********************************** CODEVOLUTION SOLUTION ***********************************');
 
+console.log( "---- isPowerOfTwo ----");
 function isPowerOfTwo(n){
     
     //n must be a power of two (1,2,8,16,32,etc...) so n greater than 1 because first power of two
@@ -65,10 +66,20 @@ function isPowerOfTwo(n){
     }
 
     while(n > 1){
+
+        /*
+        5/2 = 2.5 
+        5%2 with Remainder of 1
+
+        2.5/2 = 1.25
+        2.5%2 with Remainder of 0.5
+
+        1.25/2 = 0.625 STOP the while loop
+        */
         if(n % 2 !== 0){
             return false;
        }
-       n = n / 2; //start at 2^n, then 2^n-1 until we reach 
+       n = n / 2; //Reduce n until is less then 1 to hit the stop condition for the while loop
     }
 
     return true;
@@ -77,3 +88,92 @@ function isPowerOfTwo(n){
 console.log( isPowerOfTwo(1) ) //true
 console.log( isPowerOfTwo(2) ) //true
 console.log( isPowerOfTwo(5) ) //false
+
+console.log( "---- isPowerOfTwoBitWise ----");
+
+/*
+
+Bitwise Power of Two
+____________________________________
+1 -> 001 in Binary
+2 -> 010 in Binary
+3 -> 011 in Binary
+4 -> 100 in Binary
+
+Note:
+
+1 - 0001
+ AND
+0 - 0000
+--------
+0 - 0000 TRUE 
+
+2 - 0010
+ AND
+1 - 0001
+--------
+0 - 0000 TRUE 
+
+
+3 - 0011
+ AND
+2 - 0010
+--------
+0 - 0010 FALSE 
+
+
+4 - 1000
+ AND
+3 - 0011
+--------
+0 - 0000 TRUE 
+
+
+*/
+
+function printBinary(n){
+
+    let noMinus = Number(n).toString(2);
+     let oneMinus = Number(n-1).toString(2);
+
+    let topLength = noMinus.length;
+    let bottomLength = oneMinus.length;
+
+    console.log( noMinus );
+
+    if(topLength !== bottomLength){
+        console.log( "0"+ oneMinus );
+    }else{
+        console.log( oneMinus );
+    }
+
+
+}
+function isPowerOfTwoBitWise(n){
+
+
+    console.log("**** n = " + n + " ****");
+
+    if(n<1){
+        return false;
+    }
+    
+    printBinary(n);
+
+    return (n & (n - 1)) === 0;
+}
+
+console.log( isPowerOfTwoBitWise(1) ) //true
+console.log( isPowerOfTwoBitWise(2) ) //true
+console.log( isPowerOfTwoBitWise(3) ) //false
+console.log( isPowerOfTwoBitWise(4) ) //true
+console.log( isPowerOfTwoBitWise(5) ) //false
+
+/*
+
+5 - 1001
+  AND
+4 - 1000
+-------- 
+    1000 FALSE
+*/

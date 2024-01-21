@@ -14,34 +14,30 @@ fibonacci(7) = [0,1,1,2,3,5,8]
 
 console.log ( '**************************************** MY SOLUTION ****************************************');
 
-let fibonacciSequence = [];
+
 
 
  let findSequence = function(n) {
+    let fibonacciSequence = [];
 
-    if(fibonacciSequence.length === 0 || fibonacciSequence.length === 1){
-        if(fibonacciSequence.length === 0){
-            fibonacciSequence.push(0);
-        }
-        if(fibonacciSequence.length === 1){
-            fibonacciSequence.push(1);
-        }
-        findSequence(n-1);
-    }else{
-        // Adjust the size because start counting array at zero
-        if(n -1 === 0){
-            console.log (fibonacciSequence.join());
-            fibonacciSequence = [];
-        }else{
-            let point = fibonacciSequence.length - 1;
-            fibonacciSequence.push(fibonacciSequence[point] + fibonacciSequence[point-1]);
-            findSequence(n-1);
-        }
+    if(n === 0){
+        fibonacciSequence.push(0);
     }
 
+    if(n => 1){
+        fibonacciSequence.push(0);
+        fibonacciSequence.push(1);
+    }
 
+    for(let i = 2; i < n; i++){
+        fibonacciSequence[i] = fibonacciSequence[i-1] + fibonacciSequence[i -2];
+    }
+
+    console.log( " --- n = " + n +" ---");   
+    console.log( fibonacciSequence.join()  )
 
  }
+
 
  findSequence(2);
  findSequence(3);
@@ -59,6 +55,7 @@ let fibonacciSequence = [];
 
     }
 
+    console.log( " --- n = " + n +" ---");   
     console.log (fib.join() ) ;
  }
 
