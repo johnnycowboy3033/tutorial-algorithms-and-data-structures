@@ -9,9 +9,9 @@
 * Meassuring performance   
 * Time & Space Complexity   
 * Big O Notation   
-* Math Algorithms   
+* Math Algorithms  
+* Search     
 * Sort   
-* Search    
 * Misc. Algorithms and Problem solving  
 
 # Algorithm 
@@ -225,6 +225,21 @@ F0 = 0 and F1 = 1
 
 F2 = F1 + F0 
 ```
+
+<img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/rrecursive_time_complexity.png" alt="Recursive Time Complexity">
+
+# Search  
+
+
+
+# Sort  
+
+
+
+# Misc. Algorithms and Problem solving 
+
+
+
 
 # References      
 * [JavaScript Algorithms and Data Structures - Codevolution - YouTube

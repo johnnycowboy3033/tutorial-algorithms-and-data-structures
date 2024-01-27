@@ -76,15 +76,34 @@ let fibonacciSequence = [];
  console.log ( '*********************************** CODEVOLUTION SOLUTION ***********************************');
 
  function recursiveFibonacci(n){
-
     if( n < 2 ){
         return n;
     }
+    let a = recursiveFibonacci(n - 1);
+    let b = recursiveFibonacci(n - 2);
+    let i =  a + b;
 
-    return recursiveFibonacci(n - 1) + recursiveFibonacci(n -2);
+    /*
+
+    (0, 1, 1, 2, 3, 5, 8 ...)
+    1 = 1 + 0
+    2 = 1 + 1
+        1 = 1 + 0
+    3 = 2 + 1
+        1 = 1 + 0
+        2 = 1 + 1
+    5 = 3 + 2
+        1 = 1 + 0
+        2 = 1 + 1
+        1 = 1 + 0
+        3 = 2 + 1
+    8 = 5 + 3
+    */
+    console.log( i + " = " + a + " + " + b );
+    return i;
 
  }
 
- console.log ( recursiveFibonacci(0) );
- console.log ( recursiveFibonacci(1) );
- console.log ( recursiveFibonacci(6) );
+ //console.log ( recursiveFibonacci(0) );
+ //console.log ( recursiveFibonacci(1) );
+ console.log ( "Answer: " + recursiveFibonacci(6) );
