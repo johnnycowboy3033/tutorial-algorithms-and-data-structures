@@ -228,7 +228,25 @@ F2 = F1 + F0
 
 <img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/rrecursive_time_complexity.png" alt="Recursive Time Complexity">
 
-# Search  
+# Search 
+* Linear Search
+* Binary Search
+* Recursive Binary Search
+
+## The approach
+* Video narator will provide problem statment
+* You should pause the video and try solving the problem
+* You should implement the solution together
+* Video narator will detemine the Big-O time complexity of the solution*
+
+## Linear Search Pseudocode
+* Start at the first element in the array and move towards the last
+* At each element though, check if the element is equal to the target element
+*  if element found, return index of the element
+*  if element not found, return -1
+
+
+
 
 
 
