@@ -245,6 +245,32 @@ F2 = F1 + F0
 *  if element found, return index of the element
 *  if element not found, return -1
 
+## Linear Search Big-O 
+* loop - O(n)
+  
+ # Binary Search
+Binary Search is defined as a searching algorithm used in a **sorted array** by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N). 
+
+## Conditions for when to apply Binary Search in a Data Structure:
+To apply Binary Search algorithm:
+
+The data structure must be sorted.
+Access to any element of the data structure takes constant time.
+
+## Binary Search Algorithm:
+In this algorithm, 
+
+Divide the search space into two halves by finding the middle index “mid”. 
+
+<img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/binary_search_algorithm.png" alt="Binary Search Algorithm">        
+
+
+* Compare the middle element of the search space with the key. 
+* If the key is found at middle element, the process is terminated.
+* If the key is not found at middle element, choose which half will be used as the next search space.
+  - If the key is smaller than the middle element, then the left side is used for next search.
+  - If the key is larger than the middle element, then the right side is used for next search.
+* This process is continued until the key is found or the total search space is exhausted.
 
 
 
