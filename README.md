@@ -226,8 +226,6 @@ F0 = 0 and F1 = 1
 F2 = F1 + F0 
 ```
 
-<img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/rrecursive_time_complexity.png" alt="Recursive Time Complexity">
-
 # Search 
 * Linear Search
 * Binary Search
