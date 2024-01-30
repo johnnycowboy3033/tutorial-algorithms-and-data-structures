@@ -14,7 +14,7 @@
 * Sort   
 * Misc. Algorithms and Problem solving  
 
-# Algorithm 
+# Algorithm
 
 ## What is an algorithm?
 An algorithm is a set of well-defined instructions to solve a particular problem     
@@ -41,7 +41,7 @@ There is no one solution that works every single time. It is always good to know
 If you have little memory to work with, you should pick a solution that is relatively slower but needs less
 spcae      
 
-# Time & Space Complexity 
+# Time & Space Complexity
 
 ## How to represent complexity ?
 Asymptotic notations
@@ -61,7 +61,7 @@ Count the number of times a statement executes based on the input size
 It has two important characteristics
 * It is expressed in terms of the input
 * It Focuses on the bigger picture without getting caught up in the minute details
-  
+
  # Big-O Time Complexity
 
  Count the number of times a statement is executes based on the the input size
@@ -107,29 +107,29 @@ Conclusion:
 
  This is O(n) - Linear  Time Completity   
 
-## Example Constant Time Completity 
+## Example Constant Time Completity
 
    ```javascript
    function sunation(n){
    1 return (n * (n+1))/ 2
    }
 
-   ``` 
+   ```
 
    Line 1 only excutes one time so this is O(1) Constant Time Completity   
 
-## Example Quadratic Time Completity 
+## Example Quadratic Time Completity
 
    ```javascript
    for (i = 1; i <= n; i++){
     for (j = 1; j <= n; j++){
     }
    }
-``` 
+```
 
 O(n&sup2;)
 
- ## Example Cubic Time Completity 
+ ## Example Cubic Time Completity
 
    ```javascript
    for (i = 1; i <= n; i++){
@@ -138,15 +138,15 @@ O(n&sup2;)
     }
     }
    }
-``` 
+```
 
 O(n&sup3;)
 
- ## Example Logical Time Complexity 
+ ## Example Logical Time Complexity
 * Imput size reduces by half every iteration      
 
 * Examples include binary searches, finding the smallest or largest value in a binary search tree, and certain divide and conquer algorithms.  
-    
+
 * If an algorithm is dividing the elements being considered by 2 each iteration, then it likely has a runtime complexity of O(log N).  
 
 ## Big O Notation of Objects and Arrays
@@ -158,15 +158,15 @@ Insert item - O(1)
 Remove item - O(1)
 Access items - O(1)
 Search items - O(n) is Linear because might have search all elements
-Object.keys() - O(n) 
-Object.values() - O(n) 
-Object.entries() - O(n) 
+Object.keys() - O(n)
+Object.values() - O(n)
+Object.entries() - O(n)
 
 ### Arrays
 * An array is an ordered collection of values
-  
+
 Insert/remove at end - O(1)
-Insert/remove at beginning - O(n) 
+Insert/remove at beginning - O(n)
 Access - O(1)
 Search - O(n)
 Push/pop - O(1)
@@ -193,22 +193,22 @@ forEach/map/filter/reduce - O(n)
 ## Recursion
 * Recursion of a problem solving technique where the solution depends on solutions to smaller
 instances of the same problem    
-  
-*  Recursion is when a function calls itself 
-   
-*  A great technique to simplify your solution 
+
+*  Recursion is when a function calls itself
+
+*  A great technique to simplify your solution
 
 *  If you find yourself breaking down your problem into smaller versions of the same problem,
 recursion is very useful  
 
 ### A few points about recursion
 * Every recursive solution needs to have base case - a condition to terminate the recursion
-  
-*  Recursion might simplify solving a problem but it does not always translate to a faster 
+
+*  Recursion might simplify solving a problem but it does not always translate to a faster
 solution. A recursive solution solution may be for worse compared to an iterative solution
 
-* Recursion is a topic that is not the most straightforward to understand. Do not give up 
-if you struggle with the concept 
+* Recursion is a topic that is not the most straightforward to understand. Do not give up
+if you struggle with the concept
 
 ### Tips for recursive solutions
 * Figure out how to break down the problem inti smaller versions of the same problem
@@ -223,10 +223,10 @@ Fn = Fn-1 + Fn-2
 
 F0 = 0 and F1 = 1
 
-F2 = F1 + F0 
+F2 = F1 + F0
 ```
 
-# Search 
+# Search
 * Linear Search
 * Binary Search
 * Recursive Binary Search
@@ -243,11 +243,11 @@ F2 = F1 + F0
 *  if element found, return index of the element
 *  if element not found, return -1
 
-## Linear Search Big-O 
+## Linear Search Big-O
 * loop - O(n)
-  
+
  # Binary Search
-Binary Search is defined as a searching algorithm used in a **sorted array** by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N). 
+Binary Search is defined as a searching algorithm used in a **sorted array** by repeatedly dividing the search interval in half. The idea of binary search is to use the information that the array is sorted and reduce the time complexity to O(log N).
 
 ## Conditions for when to apply Binary Search in a Data Structure:
 To apply Binary Search algorithm:
@@ -256,14 +256,14 @@ The data structure must be sorted.
 Access to any element of the data structure takes constant time.
 
 ## Binary Search Algorithm:
-In this algorithm, 
+In this algorithm,
 
-Divide the search space into two halves by finding the middle index “mid”. 
+Divide the search space into two halves by finding the middle index “mid”.
 
 <img src="https://github.com/churchofscyence/resources/blob/main/images/tutorial-algorithms-and-data-structures/binary_search_algorithm.png" alt="Binary Search Algorithm">        
 
 
-* Compare the middle element of the search space with the key. 
+* Compare the middle element of the search space with the key.
 * If the key is found at middle element, the process is terminated.
 * If the key is not found at middle element, choose which half will be used as the next search space.
   - If the key is smaller than the middle element, then the left side is used for next search.
@@ -278,7 +278,7 @@ Divide the search space into two halves by finding the middle index “mid”.
 
 
 
-# Misc. Algorithms and Problem solving 
+# Misc. Algorithms and Problem solving
 
 
 
@@ -296,6 +296,7 @@ Divide the search space into two halves by finding the middle index “mid”.
 * [javascript-algorithms - trekhleb](https://github.com/trekhleb/javascript-algorithms)
 * [Data Structures and Algorithms in Java | Free course | Animations and Implementations - Dinesh Varyani - YouTube](https://www.youtube.com/watch?v=6iCHf7OZn6c&list=PL6Zs6LgrJj3tDXv8a_elC6eT_4R5gfX4d)
 * [Analysis of Algorithms | Big-O analysis - geeksforgeeks.org](https://www.geeksforgeeks.org/analysis-algorithms-big-o-analysis/)
+* [JavaScript - draw triangle on canvas element](https://dirask.com/posts/JavaScript-draw-triangle-on-canvas-element-1yKd5p)
 
 
 # Tools  
