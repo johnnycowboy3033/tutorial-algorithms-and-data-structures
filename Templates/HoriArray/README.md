@@ -1,4 +1,4 @@
-# Binary Search
+# Application
 
 # Start Application
 From two Terminals run the following commands 
@@ -12,4 +12,3 @@ Second Terminal
 ```
 $ ./run-compiler.sh
 ```
-
