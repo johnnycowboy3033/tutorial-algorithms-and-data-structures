@@ -10,7 +10,7 @@ isPrime(4) = false (1*4 or 2*2 or 4*1)
 
 */
 
-console.log ( '**************************************** MY SOLUTION ****************************************');
+console.log ( '**************************************** Church of Scyence (CS) ****************************************');
 
 let isPrimeNumber = function(n){
 
@@ -39,7 +39,7 @@ isPrimeNumber(17);//true
 isPrimeNumber(8);//false
 isPrimeNumber(37);//true
 
-console.log ( '*********************************** CODEVOLUTION SOLUTION ***********************************');
+console.log ( '*********************************** CODEVOLUTION SOLUTION (CS) ***********************************');
 
 function isPrime(n){
 

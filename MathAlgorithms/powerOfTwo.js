@@ -9,7 +9,7 @@ isPowerOfTwo(5) = false
 
 */
 
-console.log ( '**************************************** MY SOLUTION ****************************************');
+console.log ( '**************************************** Church of Scyence (CS) ****************************************');
 
 
 let isPowerOf2 = function (n) {
@@ -55,7 +55,7 @@ isPowerOf2(32);
 
 
 
-console.log ( '*********************************** CODEVOLUTION SOLUTION ***********************************');
+console.log ( '*********************************** CODEVOLUTION SOLUTION (CS)***********************************');
 
 console.log( "---- isPowerOfTwo ----");
 function isPowerOfTwo(n){

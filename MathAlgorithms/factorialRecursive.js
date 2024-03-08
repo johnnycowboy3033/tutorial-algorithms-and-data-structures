@@ -14,7 +14,8 @@ factorial(4) = 4*3*2*1 = 24
 factorial(5) = 5*4*3*2*1 = 120
 */
 
-console.log ( '**************************************** MY SOLUTION ****************************************');
+
+console.log ( '**************************************** Church of Scyence (CS) ****************************************');
 
 function recurFactorial(n){
     if( n <= 1 ){
@@ -29,7 +30,7 @@ console.log ( recurFactorial(4) );
 console.log ( recurFactorial(5) );
 
 
-console.log ( '*********************************** CODEVOLUTION SOLUTION ***********************************');
+console.log ( '*********************************** CODEVOLUTION SOLUTION (CS) ***********************************');
 
 function recursiveFactorial(n){
     if( n <= 1 ){

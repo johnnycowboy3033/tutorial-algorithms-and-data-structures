@@ -12,7 +12,7 @@ factorial(5) = 5*4*3*2*1 = 120
 
 */
 
-console.log ( '**************************************** MY SOLUTION and CODEVOLUTION SOLUTION ****************************************');
+console.log ( '**************************************** Church of Scyence (CS)  AND CODEVOLUTION SOLUTION (CS) ****************************************');
 
 let findFactorial = function(n){
 

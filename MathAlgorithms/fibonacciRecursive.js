@@ -14,7 +14,7 @@ recursiveFibonacci(6) = 8
 */
 
 
-console.log ( '**************************************** MY SOLUTION ****************************************');
+console.log ( '**************************************** Church of Scyence (CS) ****************************************');
 
 let fibonacciSequence = [];
 
@@ -73,7 +73,7 @@ let fibonacciSequence = [];
  console.log( " --- n = 6 --- "); 
  findSequence(6);
 
- console.log ( '*********************************** CODEVOLUTION SOLUTION ***********************************');
+ console.log ( '*********************************** CODEVOLUTION SOLUTION (CS) ***********************************');
 
  function recursiveFibonacci(n){
     if( n < 2 ){

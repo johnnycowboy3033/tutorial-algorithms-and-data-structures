@@ -10,7 +10,7 @@ arr = [-5, 2, 10, 4, 6], t = 20 -> Should return the index of -1
 
 
 */
-console.log ( '**************************************** MY SOLUTION ****************************************');
+console.log ( '**************************************** Church of Scyence (CS) ****************************************');
 
 findIndex = function (arr, target) {
 
@@ -31,7 +31,7 @@ console.log( findIndex([-5, 2, 10, 4, 6],6) );
 console.log( findIndex([-5, 2, 10, 4, 6], 20) );
 
 
-console.log ( '**************************************** CODEVOLUTION SOLUTION ****************************************');
+console.log ( '**************************************** CODEVOLUTION SOLUTION (CS) ****************************************');
 
 function linearSearch( arr, target){
 
