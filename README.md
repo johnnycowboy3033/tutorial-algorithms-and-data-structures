@@ -62,7 +62,13 @@ Asymptotic notations
 
 
 # Big O Notation
-The worst case complexity of an algorithm is represented using the big O notation     
+The worst case complexity of an algorithm is represented using the big O notation    
+
+O(1) (constant time): Algorithms with a fixed number of operations, regardless of input size.     
+O(n) (linear time): Algorithms whose running time scales linearly with input size.     
+O(n log n): Common for fast sorting algorithms.      
+O(n^2): Associated with slower sorting algorithms.       
+O(n!): Extremely slow algorithms (e.g., brute force).      
 
 Big-O notation describes the complexity of the algorithm using algebraic terms  
 
