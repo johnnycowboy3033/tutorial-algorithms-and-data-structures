@@ -320,3 +320,6 @@ Divide the search space into two halves by finding the middle index “mid”.
 * [Drawing Tool](https://www.draw.io/)
 * [Tower of Hanoi - Math is Fun](https://www.mathsisfun.com/games/towerofhanoi.html)
 * [Online Markdown Editer](https://hackmd.io/Ij7BgiLES4mySTY7B4V9Vw)
+
+# Notes
+In mathematics, the logarithm is the inverse function to exponentiation. That means that the logarithm of a number x to the base b is the exponent to which b must be raised to produce x. For example, since 1000 = 10<sup>3</sup>, the logarithm base 10 of 1000 is 3, or log<sub>10</sub> (1000) = 3. The logarithm of x to base b is denoted as log<sub>b</sub> (x), or without parentheses, log<sub>b</sub> x, or even without the explicit base, log x, when no confusion is possible, or when the base does not matter such as in big O notation.
